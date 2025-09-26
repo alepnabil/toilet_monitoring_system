@@ -1,0 +1,11 @@
+Date:,27/5/2024 16:18,,,,,,
+Tool:,Eeschema 7.0.10,,,,,,
+Component Count:,8,,,,,,
+Ref,Qnty,Value,Cmp name,Footprint,Description,Vendor,DNP
+A1,1,Arduino_Nano_Every,Arduino_Nano_Every,Module:Arduino_Nano,Arduino Nano ,,
+"BT1, BT5",2,Battery pack 3.7v ,BC2AAPC,Battery holder:BAT_BC2AAPC,To insert 1.5v battery ,,
+BT4,1,Battery pack 3.7v ,BC2AAPC,Battery holder:BAT_BC2AAPC,To insert 1.5v battery ,,
+J1,1,MQ135,Conn_01x03_Socket,Connector_PinSocket_1.00mm:PinSocket_1x03_P1.00mm_Vertical,"Generic connector, single row, 01x03, script generated",,
+J3,1,HC-12,Conn_01x04_Socket,Connector_PinSocket_1.00mm:PinSocket_1x04_P1.00mm_Vertical,"Generic connector, single row, 01x04, script generated",,
+SW2,1,Power switch,SW_SPST,Button_Switch_THT:SW_E-Switch_EG1224_SPDT_Angled,Single Pole Single Throw (SPST) switch,,
+U1,1,HC-SR04,HC-SR04,HC-SR04:XCVR_HC-SR04,Ultrasonic sensor,,

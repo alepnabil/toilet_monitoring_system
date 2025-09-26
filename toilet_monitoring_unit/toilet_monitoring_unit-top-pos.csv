@@ -1,0 +1,9 @@
+Ref,Val,Package,Mid X,Mid Y,Rotation,Layer
+A1,Arduino_Nano_Every,Arduino_Nano,108.125,-135.66,90,top
+BT1,Battery pack 3.7v ,BAT_BC2AAPC,96.9,-85.225,90,top
+BT4,Battery pack 9V,BAT_BC2AAPC,132.275,-85.5,90,top
+BT5,Battery pack 3.7v ,BAT_BC2AAPC,114.78575,-38.825,180,top
+J1,MQ135,PinSocket_1x03_P1.00mm_Vertical,156.21035,-152.8378,0,top
+J3,HC-12,PinSocket_1x04_P1.00mm_Vertical,156.23575,-140.5,0,top
+SW2,Power switch,SW_E-Switch_EG1224_SPDT_Angled,83.9346,-127.096,-90,top
+U1,HC-SR04,XCVR_HC-SR04,116.175,-153.95,0,top

@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>D:\toilet_monitoring_system\toilet_monitoring_unit\toilet_monitoring_unit.kicad_sch</source>
+    <date>27/5/2024 4:18:55 PM</date>
+    <tool>Eeschema 7.0.10</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Toilet monitoring unit ver 1</title>
+        <company/>
+        <rev>1.0</rev>
+        <date>2024-04-29</date>
+        <source>toilet_monitoring_unit.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="A1">
+      <value>Arduino_Nano_Every</value>
+      <footprint>Module:Arduino_Nano</footprint>
+      <datasheet>https://content.arduino.cc/assets/NANOEveryV3.0_sch.pdf</datasheet>
+      <libsource lib="MCU_Module" part="Arduino_Nano_Every" description="Arduino Nano Every"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="toilet_monitoring_unit.kicad_sch"/>
+      <property name="ki_description" value="Arduino Nano Every"/>
+      <property name="ki_keywords" value="Arduino nano microcontroller module USB UPDI AATMega4809 AVR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>be80b01b-089f-43ac-af42-2f5493bb1a78</tstamps>
+    </comp>
+    <comp ref="BT1">
+      <value>Battery pack 3.7v </value>
+      <footprint>Battery holder:BAT_BC2AAPC</footprint>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/BC2AAPC/MPD+%2528Memory+Protection+Devices%2529/view-part/?ref=eda</field>
+        <field name="Description">
+Battery Holder (Open) AA 2 Cell PC Pin
+</field>
+        <field name="MANUFACTURER">MPD</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">15.00mm</field>
+        <field name="MF">MPD (Memory</field>
+        <field name="MP">BC2AAPC</field>
+        <field name="PARTREV">M</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/BC2AAPC/MPD+%2528Memory+Protection+Devices%2529/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="Battery holder" part="BC2AAPC" description=""/>
+      <property name="MF" value="MPD (Memory"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="15.00mm"/>
+      <property name="Package" value="None"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/BC2AAPC/MPD+%2528Memory+Protection+Devices%2529/view-part/?ref=eda"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="PARTREV" value="M"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/BC2AAPC/MPD+%2528Memory+Protection+Devices%2529/view-part/?ref=snap"/>
+      <property name="MP" value="BC2AAPC"/>
+      <property name="Description" value="&#xA;Battery Holder (Open) AA 2 Cell PC Pin&#xA;"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="MANUFACTURER" value="MPD"/>
+      <property name="Purpose" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="toilet_monitoring_unit.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3c811807-98b6-4020-9c30-d71930edb07e</tstamps>
+    </comp>
+    <comp ref="BT4">
+      <value>Battery pack 9V</value>
+      <footprint>Battery holder:BAT_BC2AAPC</footprint>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/BC2AAPC/MPD+%2528Memory+Protection+Devices%2529/view-part/?ref=eda</field>
+        <field name="Description">
+Battery Holder (Open) AA 2 Cell PC Pin
+</field>
+        <field name="MANUFACTURER">MPD</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">15.00mm</field>
+        <field name="MF">MPD (Memory</field>
+        <field name="MP">BC2AAPC</field>
+        <field name="PARTREV">M</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/BC2AAPC/MPD+%2528Memory+Protection+Devices%2529/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="Battery holder" part="BC2AAPC" description=""/>
+      <property name="MF" value="MPD (Memory"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="15.00mm"/>
+      <property name="Package" value="None"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/BC2AAPC/MPD+%2528Memory+Protection+Devices%2529/view-part/?ref=eda"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="PARTREV" value="M"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/BC2AAPC/MPD+%2528Memory+Protection+Devices%2529/view-part/?ref=snap"/>
+      <property name="MP" value="BC2AAPC"/>
+      <property name="Description" value="&#xA;Battery Holder (Open) AA 2 Cell PC Pin&#xA;"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="MANUFACTURER" value="MPD"/>
+      <property name="Purpose" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="toilet_monitoring_unit.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0c5d75eb-2684-4c38-bb80-679629471462</tstamps>
+    </comp>
+    <comp ref="BT5">
+      <value>Battery pack 3.7v </value>
+      <footprint>Battery holder:BAT_BC2AAPC</footprint>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/BC2AAPC/MPD+%2528Memory+Protection+Devices%2529/view-part/?ref=eda</field>
+        <field name="Description">
+Battery Holder (Open) AA 2 Cell PC Pin
+</field>
+        <field name="MANUFACTURER">MPD</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">15.00mm</field>
+        <field name="MF">MPD (Memory</field>
+        <field name="MP">BC2AAPC</field>
+        <field name="PARTREV">M</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/BC2AAPC/MPD+%2528Memory+Protection+Devices%2529/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="Battery holder" part="BC2AAPC" description=""/>
+      <property name="MF" value="MPD (Memory"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="15.00mm"/>
+      <property name="Package" value="None"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/BC2AAPC/MPD+%2528Memory+Protection+Devices%2529/view-part/?ref=eda"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="PARTREV" value="M"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/BC2AAPC/MPD+%2528Memory+Protection+Devices%2529/view-part/?ref=snap"/>
+      <property name="MP" value="BC2AAPC"/>
+      <property name="Description" value="&#xA;Battery Holder (Open) AA 2 Cell PC Pin&#xA;"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="MANUFACTURER" value="MPD"/>
+      <property name="Purpose" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="toilet_monitoring_unit.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0eab5b0f-e7d2-4f55-9dc3-47068330964a</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>MQ135</value>
+      <footprint>Connector_PinSocket_1.00mm:PinSocket_1x03_P1.00mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x03_Socket" description="Generic connector, single row, 01x03, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="toilet_monitoring_unit.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3eceee37-1e55-42c7-bf68-128a8e7bb24d</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>HC-12</value>
+      <footprint>Connector_PinSocket_1.00mm:PinSocket_1x04_P1.00mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x04_Socket" description="Generic connector, single row, 01x04, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="toilet_monitoring_unit.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x04, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c7923742-2114-44ef-b221-a4be2a8cf1cc</tstamps>
+    </comp>
+    <comp ref="SW2">
+      <value>Power switch</value>
+      <footprint>Button_Switch_THT:SW_E-Switch_EG1224_SPDT_Angled</footprint>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <property name="Purpose" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="toilet_monitoring_unit.kicad_sch"/>
+      <property name="ki_description" value="Single Pole Single Throw (SPST) switch"/>
+      <property name="ki_keywords" value="switch lever"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5924978b-fe24-4ad6-a67f-54f08ea21c5b</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>HC-SR04</value>
+      <footprint>HC-SR04:XCVR_HC-SR04</footprint>
+      <fields>
+        <field name="Availability">Not in stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/HC-SR04/SparkFun+Electronics/view-part/?ref=eda</field>
+        <field name="Description">
+HC-SR04 Ultrasonic Sensor Qwiic Platform Evaluation Expansion Board
+</field>
+        <field name="MANUFACTURER">Osepp</field>
+        <field name="MF">SparkFun Electronics</field>
+        <field name="MP">HC-SR04</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/HC-SR04/SparkFun+Electronics/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="HC-SR04" part="HC-SR04" description=""/>
+      <property name="MF" value="SparkFun Electronics"/>
+      <property name="Description" value="&#xA;HC-SR04 Ultrasonic Sensor Qwiic Platform Evaluation Expansion Board&#xA;"/>
+      <property name="Package" value="None"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/HC-SR04/SparkFun+Electronics/view-part/?ref=eda"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/HC-SR04/SparkFun+Electronics/view-part/?ref=snap"/>
+      <property name="MP" value="HC-SR04"/>
+      <property name="Availability" value="Not in stock"/>
+      <property name="MANUFACTURER" value="Osepp"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="toilet_monitoring_unit.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b5a00baa-12d7-4a21-82f1-f71f9d0c7b93</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Battery holder" part="BC2AAPC">
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">BC2AAPC</field>
+        <field name="Footprint">BC2AAPC:BAT_BC2AAPC</field>
+        <field name="MF">MPD (Memory</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">15.00mm</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/BC2AAPC/MPD+%2528Memory+Protection+Devices%2529/view-part/?ref=eda</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="PARTREV">M</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/BC2AAPC/MPD+%2528Memory+Protection+Devices%2529/view-part/?ref=snap</field>
+        <field name="MP">BC2AAPC</field>
+        <field name="Description">
+Battery Holder (Open) AA 2 Cell PC Pin
+</field>
+        <field name="Availability">In Stock</field>
+        <field name="MANUFACTURER">MPD</field>
+      </fields>
+      <pins>
+        <pin num="+" name="" type="passive"/>
+        <pin num="-" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x03_Socket">
+      <description>Generic connector, single row, 01x03, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03_Socket</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x04_Socket">
+      <description>Generic connector, single row, 01x04, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04_Socket</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HC-SR04" part="HC-SR04">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">HC-SR04</field>
+        <field name="Footprint">HC-SR04:XCVR_HC-SR04</field>
+        <field name="MF">SparkFun Electronics</field>
+        <field name="Description">
+HC-SR04 Ultrasonic Sensor Qwiic Platform Evaluation Expansion Board
+</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/HC-SR04/SparkFun+Electronics/view-part/?ref=eda</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/HC-SR04/SparkFun+Electronics/view-part/?ref=snap</field>
+        <field name="MP">HC-SR04</field>
+        <field name="Availability">Not in stock</field>
+        <field name="MANUFACTURER">Osepp</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="power_in"/>
+        <pin num="2" name="TRIG" type="bidirectional"/>
+        <pin num="3" name="ECHO" type="bidirectional"/>
+        <pin num="4" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_Module" part="Arduino_Nano_Every">
+      <description>Arduino Nano Every</description>
+      <docs>https://content.arduino.cc/assets/NANOEveryV3.0_sch.pdf</docs>
+      <footprints>
+        <fp>Arduino*Nano*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">A</field>
+        <field name="Value">Arduino_Nano_Every</field>
+        <field name="Footprint">Module:Arduino_Nano</field>
+        <field name="Datasheet">https://content.arduino.cc/assets/NANOEveryV3.0_sch.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TX1" type="bidirectional"/>
+        <pin num="2" name="RX1" type="bidirectional"/>
+        <pin num="3" name="~{RESET}" type="input"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="D2" type="bidirectional"/>
+        <pin num="6" name="D3" type="bidirectional"/>
+        <pin num="7" name="D4" type="bidirectional"/>
+        <pin num="8" name="D5" type="bidirectional"/>
+        <pin num="9" name="D6" type="bidirectional"/>
+        <pin num="10" name="D7" type="bidirectional"/>
+        <pin num="11" name="D8" type="bidirectional"/>
+        <pin num="12" name="D9" type="bidirectional"/>
+        <pin num="13" name="D10" type="bidirectional"/>
+        <pin num="14" name="MOSI" type="bidirectional"/>
+        <pin num="15" name="MISO" type="bidirectional"/>
+        <pin num="16" name="SCK" type="bidirectional"/>
+        <pin num="17" name="3V3" type="power_out"/>
+        <pin num="18" name="AREF" type="input"/>
+        <pin num="19" name="A0" type="bidirectional"/>
+        <pin num="20" name="A1" type="bidirectional"/>
+        <pin num="21" name="A2" type="bidirectional"/>
+        <pin num="22" name="A3" type="bidirectional"/>
+        <pin num="23" name="SDA/A4" type="bidirectional"/>
+        <pin num="24" name="SCL/A5" type="bidirectional"/>
+        <pin num="25" name="A6" type="bidirectional"/>
+        <pin num="26" name="A7" type="bidirectional"/>
+        <pin num="27" name="+5V" type="power_out"/>
+        <pin num="28" name="~{RESET}" type="input"/>
+        <pin num="29" name="GND" type="passive"/>
+        <pin num="30" name="VIN" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_SPST">
+      <description>Single Pole Single Throw (SPST) switch</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_SPST</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Battery holder">
+      <uri>D:/toilet_monitoring_system/Battery holder/BC2AAPC.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="HC-SR04">
+      <uri>D:/toilet_monitoring_system/HC-SR04/HC-SR04.kicad_sym</uri>
+    </library>
+    <library logical="MCU_Module">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/MCU_Module.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Switch.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/5V">
+      <node ref="A1" pin="27" pinfunction="+5V" pintype="power_out"/>
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J3" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="2" name="/A0">
+      <node ref="A1" pin="19" pinfunction="A0" pintype="bidirectional"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="3" name="/D3">
+      <node ref="A1" pin="6" pinfunction="D3" pintype="bidirectional"/>
+      <node ref="U1" pin="3" pinfunction="ECHO" pintype="bidirectional"/>
+    </net>
+    <net code="4" name="/D4">
+      <node ref="A1" pin="7" pinfunction="D4" pintype="bidirectional"/>
+      <node ref="U1" pin="2" pinfunction="TRIG" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="/D5">
+      <node ref="A1" pin="8" pinfunction="D5" pintype="bidirectional"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="6" name="/D6">
+      <node ref="A1" pin="9" pinfunction="D6" pintype="bidirectional"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="7" name="GND">
+      <node ref="A1" pin="29" pinfunction="GND" pintype="passive"/>
+      <node ref="A1" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="BT5" pin="-" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="8" name="Net-(A1-VIN)">
+      <node ref="A1" pin="30" pinfunction="VIN" pintype="power_in"/>
+      <node ref="SW2" pin="2" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="9" name="Net-(BT1-Pad-)">
+      <node ref="BT1" pin="-" pintype="passive"/>
+      <node ref="BT4" pin="+" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(BT4-Pad-)">
+      <node ref="BT4" pin="-" pintype="passive"/>
+      <node ref="BT5" pin="+" pintype="passive"/>
+    </net>
+    <net code="11" name="Net-(SW2-A)">
+      <node ref="BT1" pin="+" pintype="passive"/>
+      <node ref="SW2" pin="1" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="12" name="unconnected-(A1-3V3-Pad17)">
+      <node ref="A1" pin="17" pinfunction="3V3" pintype="power_out+no_connect"/>
+    </net>
+    <net code="13" name="unconnected-(A1-A1-Pad20)">
+      <node ref="A1" pin="20" pinfunction="A1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="14" name="unconnected-(A1-A2-Pad21)">
+      <node ref="A1" pin="21" pinfunction="A2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="15" name="unconnected-(A1-A3-Pad22)">
+      <node ref="A1" pin="22" pinfunction="A3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="16" name="unconnected-(A1-A6-Pad25)">
+      <node ref="A1" pin="25" pinfunction="A6" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="17" name="unconnected-(A1-A7-Pad26)">
+      <node ref="A1" pin="26" pinfunction="A7" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="18" name="unconnected-(A1-AREF-Pad18)">
+      <node ref="A1" pin="18" pinfunction="AREF" pintype="input+no_connect"/>
+    </net>
+    <net code="19" name="unconnected-(A1-D2-Pad5)">
+      <node ref="A1" pin="5" pinfunction="D2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="20" name="unconnected-(A1-D7-Pad10)">
+      <node ref="A1" pin="10" pinfunction="D7" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="21" name="unconnected-(A1-D8-Pad11)">
+      <node ref="A1" pin="11" pinfunction="D8" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="22" name="unconnected-(A1-D9-Pad12)">
+      <node ref="A1" pin="12" pinfunction="D9" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="23" name="unconnected-(A1-D10-Pad13)">
+      <node ref="A1" pin="13" pinfunction="D10" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="24" name="unconnected-(A1-MISO-Pad15)">
+      <node ref="A1" pin="15" pinfunction="MISO" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="25" name="unconnected-(A1-MOSI-Pad14)">
+      <node ref="A1" pin="14" pinfunction="MOSI" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="26" name="unconnected-(A1-RX1-Pad2)">
+      <node ref="A1" pin="2" pinfunction="RX1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="27" name="unconnected-(A1-SCK-Pad16)">
+      <node ref="A1" pin="16" pinfunction="SCK" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="28" name="unconnected-(A1-SCL{slash}A5-Pad24)">
+      <node ref="A1" pin="24" pinfunction="SCL/A5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="29" name="unconnected-(A1-SDA{slash}A4-Pad23)">
+      <node ref="A1" pin="23" pinfunction="SDA/A4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="30" name="unconnected-(A1-TX1-Pad1)">
+      <node ref="A1" pin="1" pinfunction="TX1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="31" name="unconnected-(A1-~{RESET}-Pad3)">
+      <node ref="A1" pin="3" pinfunction="~{RESET}" pintype="input+no_connect"/>
+    </net>
+    <net code="32" name="unconnected-(A1-~{RESET}-Pad28)">
+      <node ref="A1" pin="28" pinfunction="~{RESET}" pintype="input+no_connect"/>
+    </net>
+  </nets>
+</export>
